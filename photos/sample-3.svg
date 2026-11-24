@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#27356b"/><stop offset="1" stop-color="#6c5a9c"/></linearGradient></defs>
+  <rect width="400" height="480" fill="url(#s)"/>
+  <g fill="#fff6c9"><circle cx="60" cy="70" r="3"/><circle cx="150" cy="40" r="2"/><circle cx="240" cy="90" r="3"/><circle cx="330" cy="50" r="2"/><circle cx="360" cy="140" r="3"/><circle cx="100" cy="150" r="2"/></g>
+  <circle cx="300" cy="110" r="30" fill="#fff6c9"/>
+  <rect y="370" width="400" height="110" fill="#2f5d47"/>
+  <path d="M200 230 L290 380 H110Z" fill="#f2a541"/>
+  <path d="M200 290 L232 380 H168Z" fill="#7a4a1c"/>
+  <text x="200" y="445" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Family photo goes here</text>
+</svg>
