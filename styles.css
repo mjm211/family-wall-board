@@ -69,7 +69,7 @@ ul, ol { list-style: none; padding: 0; }
   transition: filter 3s ease, transform 2s ease;
 }
 /* Warmer and dimmer in the evening. */
-body.evening #stage { filter: sepia(.24) saturate(1.1) brightness(.88); }
+body.evening #stage { filter: sepia(.45) saturate(1.15) brightness(.7); }
 
 .screen { position: absolute; inset: 0; display: none; }
 .screen.active { display: grid; }

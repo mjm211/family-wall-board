@@ -525,16 +525,15 @@
   /* ---------- preview bar (prototype only) ---------- */
 
   const PRETEND_TIMES = [
-    ['', 'right now'], ['06:30', '6:30 am'], ['07:25', '7:25 am'], ['08:45', '8:45 am'],
-    ['12:00', 'noon'], ['17:15', '5:15 pm'], ['18:30', '6:30 pm'],
-    ['19:10', '7:10 pm'], ['21:00', '9:00 pm'], ['23:30', '11:30 pm']
+    ['', 'right now'], ['06:30', '6:30 am'], ['07:25', '7:25 am · morning'], ['08:45', '8:45 am'],
+    ['12:00', 'noon'], ['17:15', '5:15 pm · menu'], ['18:30', '6:30 pm · dimmer'],
+    ['19:10', '7:10 pm · bedtime'], ['21:00', '9:00 pm'], ['23:30', '11:30 pm · sleep']
   ];
 
   function buildPreviewBar() {
     const modeButtons = [['auto', '⏱️ By the clock'], ...Object.entries(MODES).map(([id, m]) => [id, `${m.icon} ${m.label}`])]
       .map(([id, label]) => `<button data-action="mode" data-mode="${id}">${label}</button>`).join('');
     $('#preview-bar').innerHTML = `
-      <span class="pb-title">Preview</span>
       <div class="pb-modes">${modeButtons}</div>
       <label class="pb-time">Pretend it's
         <select id="pb-clock">${PRETEND_TIMES.map(([v, l]) => `<option value="${v}">${l}</option>`).join('')}</select>

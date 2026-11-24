@@ -50,13 +50,13 @@ window.BOARD_DATA = {
   week: [
     { // Sunday
       mom: { status: "home" },
-      breakfast: "Pancakes and yogurt", lunch: "Grilled cheese",
-      dinner: { dish: "Burgers, tots and toast" },
+      breakfast: "Pancakes and yogurt", lunch: "Mac and cheese",
+      dinner: { dish: "Beyond burgers, tots and toast" },
       events: []
     },
     { // Monday
       mom: { status: "work", shift: "7a-5p PARC" },
-      breakfast: "Oatmeal and berries", lunch: "Turkey roll-ups",
+      breakfast: "Oatmeal and berries", lunch: "Hummus and veggie wraps",
       dinner: { dish: "Leftovers", note: "pizza, mac and cheese" },
       events: []
     },
@@ -64,7 +64,7 @@ window.BOARD_DATA = {
       mom: { status: "work", shift: "7a-5p PARC" },
       star: "Library book",
       breakfast: "Eggs and toast", lunch: "PB&J and apple slices",
-      dinner: { vote: [{ name: "Pasta", pic: "🍝" }, { name: "Rice + chicken", pic: "🍚" }] },
+      dinner: { vote: [{ name: "Pasta", pic: "🍝" }, { name: "Rice + tofu", pic: "🍚" }] },
       events: [
         { time: "10:40", what: "Roo" },
         { time: "6:30", what: "Bball (Millys driving)" }
@@ -73,13 +73,13 @@ window.BOARD_DATA = {
     { // Wednesday
       mom: { status: "home" },
       breakfast: "Yogurt and granola", lunch: "Quesadillas",
-      dinner: { dish: "Tacos", recipe: "https://example.com/tacos" },
+      dinner: { dish: "Tofu tacos", recipe: "https://example.com/tofu-tacos" },
       events: [{ time: "4:00", what: "Swim lessons" }]
     },
     { // Thursday
       mom: { status: "work", shift: "7p-7a PARC" },
       star: "Show and tell",
-      breakfast: "Waffles", lunch: "Ham sandwich",
+      breakfast: "Waffles", lunch: "Grilled cheese and tomato soup",
       dinner: { dish: "Thai takeout" },
       events: [{ time: "3:15", what: "Dentist (Briggs)" }]
     },
@@ -92,7 +92,7 @@ window.BOARD_DATA = {
     { // Saturday
       mom: { status: "home" },
       breakfast: "French toast", lunch: "Leftover pizza",
-      dinner: { dish: "Chili and cornbread" },
+      dinner: { dish: "Veggie chili and cornbread" },
       events: [
         { time: "9:00", what: "Soccer" },
         { time: "2:00", what: "Birthday party" }
@@ -101,7 +101,7 @@ window.BOARD_DATA = {
   ],
 
   groceries: [
-    { group: "Dinner prep & fresh ingredients", items: ["Ground beef", "Taco shells", "Pizza dough", "Chicken thighs"] },
+    { group: "Dinner prep & fresh ingredients", items: ["Beyond burger patties", "Taco shells", "Pizza dough", "Extra-firm tofu"] },
     { group: "Kids breakfast, lunch & snacks", items: ["Yogurt tubes", "Pancake mix", "Apple sauce pouches"] },
     { group: "Produce, dairy & staples", items: ["Milk", "Bananas", "Eggs", "Shredded cheese"] }
   ],
